@@ -36,7 +36,9 @@
             </header>
 
             <!-- Banner Content* -->
-            <div class="banner-img"></div>
+            <div class="banner-img banner-1"></div>
+            <div class="banner-img banner-2"></div>
+            <div class="banner-img banner-3"></div>
 
             <!-- Banner Text -->
             <article class="section-content">
@@ -81,7 +83,17 @@
             </header>
 
             <!-- Message Us Form -->
-            <form></form>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <!-- Inputan yang wajib diisi -->
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
 
@@ -91,6 +103,9 @@
     <footer>
         <span>Made by Yama@2025</span>
     </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
